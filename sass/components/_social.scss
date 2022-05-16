@@ -25,8 +25,12 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.soc-list__icon {
+.soc-list__icon--grey {
   fill: var(--icon-color);
+}
+
+.soc-list__icon--white {
+  fill: var(--primary-color);
 }
 
 .soc-list__link:hover,
